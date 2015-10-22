@@ -1,0 +1,14 @@
+[commit]
+    template = ~/.git-commit-template.txt
+[reviewboard]
+    url = https://codereviews.purestorage.com/
+[user]
+    name = Dharit Tantiviramanond
+    email = reedt@purestorage.com
+[alias]
+    br = branch -vv
+    lg = log --graph --decorate --pretty=short
+[core]
+    editor = vi
+[grep]
+    linenumber = true
