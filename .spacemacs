@@ -172,6 +172,8 @@ layers configuration."
    '(lambda ()
       (setq c-basic-offset 8)
    ))
+
+  (setq-default tab-width 8)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
