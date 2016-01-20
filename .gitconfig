@@ -1,0 +1,13 @@
+[alias]
+	ci = commit -am
+	branchv = branch -vvr
+	br = branch -vv
+	brr = branch -r
+	lgv = log --decorate --graph
+	lg = log --decorate --graph --oneline
+	rmt = remote -v
+[user]
+	name = reedt
+	email = tortorareed@gmail.com
+[grep]
+	linenumber = true
