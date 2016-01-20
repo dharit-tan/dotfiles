@@ -14,9 +14,16 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 . /Users/Reed/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
 # Git autocomplete
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
-else
-  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
-  . ~/.git-completion.bash
-fi
+# if [ -f ~/.git-completion.bash ]; then
+#   . ~/.git-completion.bash
+# else
+#   curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+#   . ~/dotfiles/.git-completion.bash
+# fi
+
+# if [ -f ~/git-prompt.bash ]; then
+#     . ~/dotfiles/git-prompt.bash
+# else
+#     curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+#     . ~/dotfiles/.git-completion.bash
+# fi
