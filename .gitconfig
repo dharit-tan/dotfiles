@@ -13,3 +13,5 @@
     editor = vi
 [grep]
     linenumber = true
+[push]
+    default = upstream
