@@ -8,6 +8,7 @@
 [alias]
     br = branch -vv
     lg = log --graph --decorate --pretty=short
+    lgo = log --oneline --graph --decorate
     ft = fetch --tags
 [core]
     editor = vi
