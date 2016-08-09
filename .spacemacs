@@ -26,16 +26,17 @@
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
-     syntax-checking
+     ;; syntax-checking
      version-control
      (c-c++ :variables c-c++-enable-clang-support t)
+     javascript
      cscope
      themes-megapack
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages then consider to create a layer, you can also put the
-   ;; configuration in `dotspacemacs/config'.
+   ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '()
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
@@ -183,7 +184,16 @@ layers configuration."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(c-basic-offset 8))
+ '(c-basic-offset 8)
+ ;; js2-mode
+ '(js2-basic-offset 2)
+ ;; web-mode
+ '(css-indent-offset 2)
+ '(web-mode-markup-indent-offset 2)
+ '(web-mode-css-indent-offset 2)
+ '(web-mode-code-indent-offset 2)
+ '(web-mode-attr-indent-offset 2)
+)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
