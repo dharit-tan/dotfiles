@@ -8,6 +8,8 @@ alias manellelogin='ssh tortorareed@manelle.whatbox.ca'
 alias sandbox='cd ~/Sandbox/'
 alias thesis='cd ~/Thesis/'
 alias mixxx='cd ~/Sandbox/mixxx && source .init.bash'
+alias download_website='wget --mirror -p --html-extension --convert-links'
+
 
 # find vsts
 function vst() {
